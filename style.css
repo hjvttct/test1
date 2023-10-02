@@ -1,0 +1,103 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+header{
+    background-color: black;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    height: 60px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.nav div{
+    border-right: 5px solid white;
+    height: 100%;
+    padding-top: 4%;
+    padding-right: 70px;
+  
+    -ms-transform: skewX(20deg); /* IE 9 */
+    -webkit-transform: skewX(20deg); /* Safari */
+    transform: skewX(20deg);
+    text-decoration: none;
+    text-transform: none;
+}
+
+h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 100px;
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+}
+.text{
+    width: 500px;
+}
+.text p{
+    text-align: justify;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 75px;
+}
+.text h2, .inline h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content p, .inline p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgba(255, 228, 196, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.inline{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+.inline div{
+    width: 300px;
+    text-align: center;
+}
+
+.advantages{
+    padding-top: 59px;
+}
+.advantages h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105px;
+}
+footer{
+    
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: black;
+}
+footer div{
+    
+}
